@@ -90,7 +90,7 @@ function initGame() {
 	resetButton.click();
 
 	var cards = document.querySelectorAll('.deck .card');
-	var delay = 500;
+	var delay = 1000;
 	cards.forEach(function (card) {
 
 		setTimeout(function () {
