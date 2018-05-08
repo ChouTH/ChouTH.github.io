@@ -86,4 +86,23 @@ function checkOpenCards() {
 	}
 }
 
-resetButton.click();
+function initGame() {
+	resetButton.click();
+
+	var cards = document.querySelectorAll('.deck .card');
+	var delay = 500;
+	cards.forEach(function (card) {
+
+		setTimeout(function () {
+			card.classList = 'card show open';
+		}, delay);
+
+		setTimeout(function () {
+			card.classList = 'card';
+		}, delay + 600);
+
+		delay += 250;
+	});
+}
+
+initGame();
