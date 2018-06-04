@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://chouth.github.io/2018/06/03/a/</loc>
+    <loc>https://chouth.github.io/2018/06/03/memory-game/</loc>
     
-    <lastmod>2018-06-03T10:54:38.980Z</lastmod>
+    <lastmod>2018-06-04T15:45:04.615Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/04/js-promise/</loc>
+    
+    <lastmod>2018-06-04T15:41:39.286Z</lastmod>
     
   </url>
   
