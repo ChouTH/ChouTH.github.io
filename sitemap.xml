@@ -2,9 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chouth.github.io/2018/06/26/add-two-numbers/</loc>
+    
+    <lastmod>2018-06-30T15:05:24.355Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/27/flatten-a-multilevel-doubly-linked-list/</loc>
+    
+    <lastmod>2018-06-30T15:05:13.192Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/07/loop-in-linked-list/</loc>
+    
+    <lastmod>2018-06-30T15:04:56.297Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/25/merge-two-sorted-lists/</loc>
+    
+    <lastmod>2018-06-30T15:04:48.734Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/24/palindrome-linked-list/</loc>
+    
+    <lastmod>2018-06-30T15:04:18.427Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chouth.github.io/2018/06/28/rotate-list/</loc>
     
-    <lastmod>2018-06-28T16:03:21.440Z</lastmod>
+    <lastmod>2018-06-30T15:04:06.540Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/23/odd-even-linked-list/</loc>
+    
+    <lastmod>2018-06-30T15:03:36.812Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/22/remove-linked-list-elements/</loc>
+    
+    <lastmod>2018-06-30T15:03:29.940Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/22/Reverse-a-linked-list/</loc>
+    
+    <lastmod>2018-06-30T15:03:00.308Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/20/Remove-Nth-Node-From-End-of-List/</loc>
+    
+    <lastmod>2018-06-30T15:02:53.663Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/06/js-singly-linked-list/</loc>
+    
+    <lastmod>2018-06-30T15:02:42.568Z</lastmod>
     
   </url>
   
@@ -12,76 +82,6 @@
     <loc>https://chouth.github.io/2018/06/27/insert-into-a-cyclic-sorted-list/</loc>
     
     <lastmod>2018-06-27T15:03:41.934Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/27/flatten-a-multilevel-doubly-linked-list/</loc>
-    
-    <lastmod>2018-06-27T14:45:42.914Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/26/add-two-numbers/</loc>
-    
-    <lastmod>2018-06-26T23:00:46.695Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/25/merge-two-sorted-lists/</loc>
-    
-    <lastmod>2018-06-26T13:06:35.135Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/24/palindrome-linked-list/</loc>
-    
-    <lastmod>2018-06-24T15:52:17.517Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/23/odd-even-linked-list/</loc>
-    
-    <lastmod>2018-06-23T16:05:42.686Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/22/remove-linked-list-elements/</loc>
-    
-    <lastmod>2018-06-22T15:27:40.463Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/22/Reverse-a-linked-list/</loc>
-    
-    <lastmod>2018-06-21T16:54:08.743Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/20/remove-nth/</loc>
-    
-    <lastmod>2018-06-21T16:37:24.550Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/07/loop-in-linked-list/</loc>
-    
-    <lastmod>2018-06-21T16:31:33.753Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/06/js-singly-linked-list/</loc>
-    
-    <lastmod>2018-06-21T16:31:25.458Z</lastmod>
     
   </url>
   
