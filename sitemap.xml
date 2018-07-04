@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chouth.github.io/2018/07/04/intro-to-2d-array/</loc>
+    
+    <lastmod>2018-07-04T16:46:02.999Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/07/03/intro-to-array/</loc>
+    
+    <lastmod>2018-07-03T15:19:37.711Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/28/rotate-list/</loc>
+    
+    <lastmod>2018-07-03T09:27:07.806Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chouth.github.io/2018/06/25/merge-two-sorted-lists/</loc>
+    
+    <lastmod>2018-06-30T15:25:08.013Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chouth.github.io/2018/06/26/add-two-numbers/</loc>
     
     <lastmod>2018-06-30T15:05:24.355Z</lastmod>
@@ -23,23 +51,9 @@
   </url>
   
   <url>
-    <loc>https://chouth.github.io/2018/06/25/merge-two-sorted-lists/</loc>
-    
-    <lastmod>2018-06-30T15:04:48.734Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://chouth.github.io/2018/06/24/palindrome-linked-list/</loc>
     
     <lastmod>2018-06-30T15:04:18.427Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/28/rotate-list/</loc>
-    
-    <lastmod>2018-06-30T15:04:06.540Z</lastmod>
     
   </url>
   
@@ -82,13 +96,6 @@
     <loc>https://chouth.github.io/2018/06/27/insert-into-a-cyclic-sorted-list/</loc>
     
     <lastmod>2018-06-27T15:03:41.934Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chouth.github.io/2018/06/03/memory-game/</loc>
-    
-    <lastmod>2018-06-07T13:10:52.334Z</lastmod>
     
   </url>
   
