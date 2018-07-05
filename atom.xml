@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chouth.github.io/"/>
-  <updated>2018-07-05T14:32:48.734Z</updated>
+  <updated>2018-07-05T15:29:42.401Z</updated>
   <id>https://chouth.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Introduction to String</title>
+    <link href="https://chouth.github.io/2018/07/05/intro-to-string/"/>
+    <id>https://chouth.github.io/2018/07/05/intro-to-string/</id>
+    <published>2018-07-05T14:40:04.000Z</published>
+    <updated>2018-07-05T15:29:42.401Z</updated>
+    
+    <content type="html"><![CDATA[<p>A string is actually an array of <code>unicode characters</code>. You can perform almost all the operations we used in an array.</p><p>However, there are some differences. In this article, we will go through some of them which you should be aware of when dealing with a string. These features might vary a lot from one language to another.</p><a id="more"></a><hr><h1 id="Add-Binary"><a href="#Add-Binary" class="headerlink" title="Add Binary"></a>Add Binary</h1><p>Given two binary strings, return their sum (also a binary string).</p><p>The input strings are both non-empty and contains only characters 1 or 0.</p><p>Example 1:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Input: a = &quot;11&quot;, b = &quot;1&quot;</span><br><span class="line">Output: &quot;100&quot;</span><br></pre></td></tr></table></figure></p><p>Example 2:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Input: a = &quot;1010&quot;, b = &quot;1011&quot;</span><br><span class="line">Output: &quot;10101&quot;</span><br></pre></td></tr></table></figure></p><p><a href="https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1160" target="_blank" rel="noopener">LeetCode Link</a></p><hr><h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * @param &#123;string&#125; a</span></span><br><span class="line"><span class="comment"> * @param &#123;string&#125; b</span></span><br><span class="line"><span class="comment"> * @return &#123;string&#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">const</span> addBinary = <span class="function"><span class="keyword">function</span>(<span class="params">a, b</span>) </span>&#123;</span><br><span class="line">  <span class="comment">// Gets the bigger length of the two strings</span></span><br><span class="line">  <span class="keyword">const</span> maxLength = <span class="built_in">Math</span>.max(a.length, b.length);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// Pads strings to make them have the same length</span></span><br><span class="line">  <span class="comment">// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart</span></span><br><span class="line">  a = a.padStart(maxLength, <span class="string">'0'</span>);</span><br><span class="line">  b = b.padStart(maxLength, <span class="string">'0'</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> carry = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">let</span> sum = <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">let</span> result = <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">let</span> i = maxLength - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--)&#123;</span><br><span class="line">    sum = carry + a.charAt(i)*<span class="number">1</span> + b.charAt(i)*<span class="number">1</span>;</span><br><span class="line">    result =  sum % <span class="number">2</span> + result;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Gets the integer part</span></span><br><span class="line">    <span class="comment">// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc</span></span><br><span class="line">    carry = <span class="built_in">Math</span>.trunc(sum / <span class="number">2</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span>(carry &gt; <span class="number">0</span>)&#123;</span><br><span class="line">    <span class="keyword">return</span> carry + result;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> result;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A string is actually an array of &lt;code&gt;unicode characters&lt;/code&gt;. You can perform almost all the operations we used in an array.&lt;/p&gt;
+&lt;p&gt;However, there are some differences. In this article, we will go through some of them which you should be aware of when dealing with a string. These features might vary a lot from one language to another.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://chouth.github.io/tags/js/"/>
+    
+      <category term="data-structures" scheme="https://chouth.github.io/tags/data-structures/"/>
+    
+      <category term="string" scheme="https://chouth.github.io/tags/string/"/>
+    
+  </entry>
   
   <entry>
     <title>Introduction to 2D Array</title>
