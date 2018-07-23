@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chouth.github.io/2018/07/23/reverse-string/</loc>
+    
+    <lastmod>2018-07-23T14:36:12.769Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chouth.github.io/2018/07/09/remove-duplicates-from-sorted-array/</loc>
     
     <lastmod>2018-07-10T05:00:03.591Z</lastmod>
